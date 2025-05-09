@@ -11,7 +11,8 @@
 
 /* ----------CSS Custom Styles Added---------- */
 @theme {
-  --color-primary: #000fff;
+  --color-main: #b68c5a;
+  --color-second: #707070;
   --font-primary: "EB Garamond", serif;
   --font-secondary: "Poppins", sans-serif;
 }

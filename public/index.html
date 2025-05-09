@@ -19,9 +19,75 @@
     <link rel="stylesheet" href="./output.css" />
 </head>
 
-<body>
-    <h1 class="text-7xl text-center font-bold text-green-700">Hello World...</h1>
-    <button class="btn btn-error text-white py-10 px-10 text-4xl rounded-2xl">Show More</button>
+<body class="font-primary">
+
+    <!---------- Heading Section Added ---------->
+    <header class="outline-1 w-10/12 mx-auto">
+
+        <!---------- Navbar Added ---------->
+        <nav class="my-3 md:my-10 font-secondary">
+            <div class="navbar bg-base-100 p-0">
+
+                <!----- Nav Left ----->
+                <div class="navbar-start">
+                    <a href=""><img src="../assets/icons/logo2.png" alt="nav logo"></a>
+                </div>
+
+                <!----- Nav Center ----->
+                <div class="navbar-center hidden md:flex">
+                    <ul class="menu menu-horizontal lg:text-lg font-medium gap-2">
+                        <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                href="">Home</a></li>
+                        <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                href="">Services <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="hover:text-main transition-colors duration-200 ease-in-out
+                        text-second"><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!----- Nav Right ----->
+                <div class="navbar-end">
+                    <button
+                        class="hover:bg-gray-200 bg-main text-white hover:text-main hidden md:inline-block py-5 px-7 rounded-lg cursor-pointer">
+                        <a href="" class="text-lg font-semibold">Free Consultation</a>
+                    </button>
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden text-lg sm:text-xl text-main">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-32 p-2 shadow sm:text-lg font-medium right-0 gap-5">
+                            <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                    href="">Home</a></li>
+                            <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                    href="">Services <i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="hover:text-main transition-colors duration-200 ease-in-out
+                        text-second"><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                            <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                    href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="hover:text-main transition-colors duration-200 ease-in-out text-second"><a
+                                    href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
 </body>
 
 </html>
